@@ -15,6 +15,7 @@ abstract class Shop implements ShopingInterface
     private $contract;
     private $region;
 
+    /** This is constructor */
     public function __construct ()
     {
 
