@@ -21,6 +21,9 @@ abstract class Shop implements ShopingInterface
 
     }
 
+    /**
+     * @param $array array
+     */
     public function setWorkingTime($array)
     {
         $this->workingTime = $array;
